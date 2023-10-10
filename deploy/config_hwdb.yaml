@@ -63,10 +63,6 @@ vitis_firesim_gemmini_rocket_singlecore_no_nic:
     xclbin: https://firesim-ci-vitis-xclbins.s3.us-west-2.amazonaws.com/vitis_firesim_gemmini_rocket_singlecore_no_nic_36bfe5.xclbin
     deploy_triplet_override: FireSim-FireSimLeanGemminiRocketMMIOOnlyConfig-BaseVitisConfig
     custom_runtime_config: null
-vitis_firesim_rocket_dualcore_no_nic:
-    xclbin: /home/bxeuser/firesim/deploy/build_dir//platforms/vitis/cl_FireSim-FireSimDualRocketMMIOOnlyConfig-BaseVitisConfig/bitstream/build_dir.xilinx_u250_gen3x16_xdma_4_1_202210_1/firesim.xclbin
-    deploy_triplet_override: FireSim-FireSimDualRocketMMIOOnlyConfig-BaseVitisConfig
-    custom_runtime_config: null
 constellation_test:
     xclbin: /home/bxeuser/firesim/deploy/build//platforms/vitis/cl_FireSim-ConstellationTestConfig-BaseVitisConfig/bitstream/build_dir.xilinx_u250_gen3x16_xdma_4_1_202210_1/firesim.xclbin
     deploy_triplet_override: FireSim-ConstellationTestConfig-BaseVitisConfig

@@ -316,3 +316,17 @@ firesim_8_core:
     post_build_hook: null
     metasim_customruntimeconfig: null
     bit_builder_recipe: bit-builder-recipes/vitis.yaml
+
+# BXE FireSim Dual-Core Rocket Recipe
+vitis_firesim_rocket_dualcore_no_nic:
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimDualRocketMMIOOnlyConfig
+    PLATFORM_CONFIG: BaseVitisConfig
+    deploy_triplet: null
+    platform_config_args:
+        fpga_frequency: 140
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/vitis.yaml
+
