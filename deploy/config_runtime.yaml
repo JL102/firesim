@@ -27,9 +27,9 @@ run_farm:
 metasimulation:
   metasimulation_enabled: false 
   # vcs or verilator. use vcs-debug or verilator-debug for waveform generation
-  metasimulation_host_simulator: verilator
+  metasimulation_host_simulator: verilator-debug
   # plusargs passed to the simulator for all metasimulations
-  metasimulation_only_plusargs: "+fesvr-step-size=128 +max-cycles=100000000"
+  metasimulation_only_plusargs: "+fesvr-step-size=128 +max-cycles=100000000 +vcdfile=/home/bxeuser/output.vcd"
   # plusargs passed to the simulator ONLY FOR vcs metasimulations
   metasimulation_only_vcs_plusargs: "+vcs+initreg+0 +vcs+initmem+0"
 
@@ -60,7 +60,7 @@ target_config:
     switching_latency: 10
     net_bandwidth: 200
     profile_interval: -1
-    default_hw_config: firesim_8_core
+    default_hw_config: sage_test
     plusarg_passthrough: ""
 
 
@@ -83,8 +83,8 @@ autocounter:
     read_rate: 0
 
 workload:
-    # workload_name: example-br.json
-    workload_name: fedora-base.json
+    # workload_name: fedora-base.json
+    workload_name: sage.json
     terminate_on_completion: no
     suffix_tag: null
 

@@ -56,7 +56,9 @@ builds_to_run:
     # - message_queue_4_core_mesh
     # - constellation_test
     # - mega_boom
-    - vitis_firesim_rocket_dualcore_no_nic
+    # - vitis_firesim_rocket_dualcore_no_nic
+    # - sage_test
+      - rocc_over_noc
     # - firesim_8_core
 
 agfis_to_share:

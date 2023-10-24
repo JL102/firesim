@@ -330,3 +330,28 @@ vitis_firesim_rocket_dualcore_no_nic:
     metasim_customruntimeconfig: null
     bit_builder_recipe: bit-builder-recipes/vitis.yaml
 
+sage_test:
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimAndSageTestConfig
+    PLATFORM_CONFIG: BaseVitisConfig
+    deploy_triplet: null
+    platform_config_args:
+        fpga_frequency: 100
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/vitis.yaml
+
+        
+rocc_over_noc:
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimAndRoNTestConfig
+    PLATFORM_CONFIG: BaseVitisConfig
+    deploy_triplet: null
+    platform_config_args:
+        fpga_frequency: 100
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/vitis.yaml
+
