@@ -57,8 +57,10 @@ builds_to_run:
     # - constellation_test
     # - mega_boom
     # - vitis_firesim_rocket_dualcore_no_nic
+     # - constellation_test
     # - sage_test
-      - rocc_over_noc
+    - sage_test
+      # - rocc_over_noc
     # - firesim_8_core
 
 agfis_to_share:

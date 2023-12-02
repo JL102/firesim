@@ -91,3 +91,11 @@ sage_test:
     xclbin: /home/bxeuser/firesim/deploy/build//platforms/vitis/cl_FireSim-FireSimAndSageTestConfig-BaseVitisConfig/bitstream/build_dir.xilinx_u250_gen3x16_xdma_4_1_202210_1/firesim.xclbin
     deploy_triplet_override: FireSim-FireSimAndSageTestConfig-BaseVitisConfig
     custom_runtime_config: null
+rocc_over_noc:
+    xclbin: /home/bxeuser/firesim/deploy/build//platforms/vitis/cl_FireSim-FireSimAndRoNTestConfig-BaseVitisConfig/bitstream/build_dir.xilinx_u250_gen3x16_xdma_4_1_202210_1/firesim.xclbin
+    deploy_triplet_override: FireSim-FireSimAndRoNTestConfig-BaseVitisConfig
+    custom_runtime_config: null
+sage_boom:
+    xclbin: /home/bxeuser/firesim/deploy/build//platforms/vitis/cl_FireSim-FireSimAndSageBoomConfig-BaseVitisConfig/bitstream/build_dir.xilinx_u250_gen3x16_xdma_4_1_202210_1/firesim.xclbin
+    deploy_triplet_override: FireSim-FireSimAndSageBoomConfig-BaseVitisConfig
+    custom_runtime_config: null

@@ -60,7 +60,8 @@ target_config:
     switching_latency: 10
     net_bandwidth: 200
     profile_interval: -1
-    default_hw_config: sage_test
+    # default_hw_config: rocc_over_noc
+    default_hw_config: sage_boom
     plusarg_passthrough: ""
 
 
@@ -83,7 +84,7 @@ autocounter:
     read_rate: 0
 
 workload:
-    # workload_name: fedora-base.json
+    # workload_name: ron.json
     workload_name: sage.json
     terminate_on_completion: no
     suffix_tag: null
