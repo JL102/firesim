@@ -348,12 +348,24 @@ sage_test:
     PLATFORM_CONFIG: BaseVitisConfig
     deploy_triplet: null
     platform_config_args:
-        fpga_frequency: 80
+        fpga_frequency: 135
         build_strategy: TIMING
     post_build_hook: null
     metasim_customruntimeconfig: null
     bit_builder_recipe: bit-builder-recipes/vitis.yaml
 
+# This is just to test how the HW resource utilization changes with & without Sage
+rocket_four_core:
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimFourCoreRocketConfig 
+    PLATFORM_CONFIG: BaseVitisConfig
+    deploy_triplet: null
+    platform_config_args:
+        fpga_frequency: 135
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/vitis.yaml
         
 rocc_over_noc:
     DESIGN: FireSim

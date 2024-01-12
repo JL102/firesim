@@ -58,8 +58,8 @@ builds_to_run:
     # - mega_boom
     # - vitis_firesim_rocket_dualcore_no_nic
      # - constellation_test
-    # - sage_test
     - sage_test
+    # - rocket_four_core
       # - rocc_over_noc
     # - firesim_8_core
 

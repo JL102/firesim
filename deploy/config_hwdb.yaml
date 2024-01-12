@@ -99,3 +99,7 @@ sage_boom:
     xclbin: /home/bxeuser/firesim/deploy/build//platforms/vitis/cl_FireSim-FireSimAndSageBoomConfig-BaseVitisConfig/bitstream/build_dir.xilinx_u250_gen3x16_xdma_4_1_202210_1/firesim.xclbin
     deploy_triplet_override: FireSim-FireSimAndSageBoomConfig-BaseVitisConfig
     custom_runtime_config: null
+rocket_four_core:
+    xclbin: /home/bxeuser/firesim/deploy/build//platforms/vitis/cl_FireSim-FireSimFourCoreRocketConfig-BaseVitisConfig/bitstream/build_dir.xilinx_u250_gen3x16_xdma_4_1_202210_1/firesim.xclbin
+    deploy_triplet_override: FireSim-FireSimFourCoreRocketConfig-BaseVitisConfig
+    custom_runtime_config: null
